@@ -1,0 +1,23 @@
+/* Ligth Thwme */
+:root {
+    --background-color: rgb(209, 204, 204);
+    --link-color: rgb(118, 21, 21);
+    --text-color: black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);;
+    color: var(--text-color);
+
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: underline;
+}
